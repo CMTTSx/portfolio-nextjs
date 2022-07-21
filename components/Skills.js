@@ -32,9 +32,9 @@ import protoIcon from '../public/img/protolayout.png'
 import usabilidadeIcon from '../public/img/usabilidade_icon.png'
 import acessibilidadeIcon from '../public/img/acessibilidade.png'
 import figmaIcon from '../public/img/figmaIcon.png'
-import githubIcon from '../public/img/GitHub.jpg'
+import githubIcon from '../public/img/GitHub.png'
 import photoIcon from '../public/img/photoshop.png'
-import linuxIcon from '../public/img/Linux.jpg'
+import linuxIcon from '../public/img/Linux2.png'
 import Link from 'next/link';
 
 
@@ -65,10 +65,10 @@ export default function Skills() {
       <div className="grid grid-cols-10 flex flex-wrap  gap-4 sm:w-[18em] sm2:w-[20em] sm3:w-[22em] md:w-[45em] lg:w-[50em] lg:ml-[6em] md:ml-[1.5em] sm:ml-[1em] sm2:ml-[1.8em] sm3:ml-[2.3em] mt-10 mb-20  sm:grid-cols-2 md:grid-cols-4 md:gap-10 lg:grid-cols-4 md:gap-20 lg:gap-20 xl:grid-cols-10 xl:gap-5 xl:ml-[4em] xl:w-[110em] ">
         <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-4 ' title='O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.' ><Image src={mysqlIcon} alt="mysqlIcon" width='200px' height='150px' className='hover:scale-110 ' /></div>
         <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-5 ' title='PostgreSQL é um sistema gerenciador de banco de dados objeto relacional, desenvolvido como projeto de código aberto.' ><Image src={postgreIcon} alt="postgreIcon" width='350px' height='240px' className='hover:scale-110' /></div>
-        <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-2 ' title='MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas.' ><Image src={mongoIcon} alt="mongoIcon" width='400px' height='350px' className='hover:scale-105' /></div>
+        <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-2 ' title='MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas.' ><Image src={mongoIcon} alt="mongoIcon" width='350px' height='350px' className='hover:scale-105' /></div>
         <div className=' border-[1px] cursor-pointer ' title='O Sequelize é um ORM(Object/Relational Mapper) baseado em Promise para Node. js e io. js, e suporta os dialetos PostgreSQL, MySQL, MariaDB, SQLite e MSSQL e recursos a transação, relacionamentos, replicação de leitura e muito mais.' ><Image src={sequelizeIcon} alt="sequelizeIcon" width='200px' height='200px' className='hover:scale-105 ' /></div>
-        <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-2 ' title='O Mongoose é um ODM e fornece uma solução direta e baseada em esquema para modelar seus dados de aplicativos. Ele inclui conversão de tipo integrada, validação, criação de consulta, ganchos de lógica de negócios e muito mais, prontos para uso. ' ><Image src={mongooseIcon} alt="mongooseIcon" width='350px' height='320px' className='hover:scale-110' /></div>
-        <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-5 ' title='Firebase é uma plataforma desenvolvida pelo Google para a criação de aplicativos móveis e da web. Era originalmente uma empresa independente fundada em 2011. Em 2014, o Google adquiriu a plataforma e agora é sua oferta principal para o desenvolvimento de aplicativos.' ><Image src={firebaseIcon} alt="firebaseIcon" width='350px' height='250px' className='hover:scale-110' /></div>
+        <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-2 ' title='O Mongoose é um ODM e fornece uma solução direta e baseada em esquema para modelar seus dados de aplicativos. Ele inclui conversão de tipo integrada, validação, criação de consulta, ganchos de lógica de negócios e muito mais, prontos para uso. ' ><Image src={mongooseIcon} alt="mongooseIcon" width='400px' height='320px' className='hover:scale-110' /></div>
+        <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-5 ' title='Firebase é uma plataforma desenvolvida pelo Google para a criação de aplicativos móveis e da web. Era originalmente uma empresa independente fundada em 2011. Em 2014, o Google adquiriu a plataforma e agora é sua oferta principal para o desenvolvimento de aplicativos.' ><Image src={firebaseIcon} alt="firebaseIcon" width='300px' height='200px' className='hover:scale-110' /></div>
       </div>
 
       <h3 className=' border-[1px] text-center text-3xl font-bold bg-[#F2EFEA] '>BACK-END</h3>
