@@ -12,4 +12,4 @@ Projeto Site Portfolio
 # 🛠️ Tecnologias aprendidas e utilizadas 🛠️
 
 1-NEXTJS
-2-MATERIAL UI
+2-TAILWIND 
